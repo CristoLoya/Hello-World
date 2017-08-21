@@ -17,10 +17,10 @@ int main() {
     cin >> guess;
     counter = counter + 1;
       if (guess < random) {
-        cout << "too low, try again" << endl;
+        cout << guess << " is too low, try again" << endl;
       }
       if (guess > random) {
-        cout << "too high, try again" << endl;
+        cout << guess << " is too high, try again" << endl;
       }
   }
   if (counter <= 1){
