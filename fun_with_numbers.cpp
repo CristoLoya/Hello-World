@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-  unsigned long int first_value, second_value, sum, difference, product, integer_based_division, remainder_of_integer_division;
+  int first_value, second_value, sum, difference, product, integer_based_division, remainder_of_integer_division;
 
   cout << "enter first value" << endl;
   cin >> first_value;
