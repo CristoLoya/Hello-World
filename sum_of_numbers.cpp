@@ -9,8 +9,10 @@ int main() {
   do {
     cout << "enter lower bound" << endl;
     cin >> lowerbound;
+    cin.ignore();
     cout << "enter upper bound" << endl;
     cin >> upperbound;
+    cin.ignore();
     if (lowerbound > upperbound) {
       cout << "your lower bound is greater than your upper bound, try again" << endl;
     }
