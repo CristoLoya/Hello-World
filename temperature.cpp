@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-  unsigned long int fahrenheit, celcius;
+  int fahrenheit, celcius;
 
   cout << "enter value in fahrenheit" << endl;
   cin >> fahrenheit;
