@@ -7,8 +7,10 @@ int main() {
 
   cout << "enter first value" << endl;
   cin >> first_value;
+  cin.ignore();
   cout << "enter second value" << endl;
   cin >> second_value;
+  cin.ignore();
 
   sum = first_value + second_value;
   difference = first_value - second_value;
