@@ -15,6 +15,7 @@ int main() {
 
   while (random != guess) {
     cin >> guess;
+    cin.ignore();
     counter = counter + 1;
       if (guess < random) {
         cout << guess << " is too low, try again" << endl;
