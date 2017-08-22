@@ -7,6 +7,7 @@ int main() {
 
   cout << "enter value in fahrenheit" << endl;
   cin >> fahrenheit;
+  cin.ignore();
 
   celcius = 5 * (fahrenheit - 32) / 9;
 
